@@ -1,0 +1,96 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-size: 100%;
+}
+.bodylow{
+    background-color: #fff;
+    background-size: 100%;
+}
+header{
+    background-color: #f2f2f2;
+    background-size: 100%;
+}
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.title {
+    color: #20a8b4 ;
+    margin-top: 10px;
+    margin-bottom: inherit;
+    padding-left: 50px;
+}
+.code{
+    color: #ff5c0f;
+}
+.navigation{
+    list-style-type: none;
+    display: flex;
+    margin: 5px;
+    align-items: stretch;
+    flex-direction: column;
+    font-size: 20px;
+    color: #000;
+}
+@media screen and (min-width: 768px) {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+    }
+    
+    li {
+      width: auto;
+    }
+  }
+.li{
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+}
+#button{
+    padding-bottom: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: #000;
+}
+a:hover{
+    color: #ff5c0f;
+}
+button{
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #20a8b4;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button:hover{
+    background-color: #ff5c0f;
+}
+.div{ 
+    cursor: default;
+    padding: 45px;
+    background-color: #fff;
+    background-size: inherit;
+}
+.learningtocode {
+    color: #ff5c0f;
+}
