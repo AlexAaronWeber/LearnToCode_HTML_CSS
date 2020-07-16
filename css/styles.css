@@ -3,6 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
     width: 100%;
     background-size: 100%;
+    margin: 0;
 }
 .bodylow{
     background-color: #fff;
@@ -22,31 +23,22 @@ header{
     color: #20a8b4 ;
     margin-top: 10px;
     margin-bottom: inherit;
-    padding-left: 50px;
+    margin: 5px
 }
 .code{
     color: #ff5c0f;
 }
 .navigation{
     list-style-type: none;
+    padding: 0;
     display: flex;
-    margin: 5px;
+    margin: 10px;
     align-items: stretch;
     flex-direction: column;
     font-size: 20px;
     color: #000;
 }
-@media screen and (min-width: 768px) {
-    ul {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-    }
-    
-    li {
-      width: auto;
-    }
-  }
+
 .li{
     width: 200px;
     text-align: left;
@@ -54,7 +46,7 @@ header{
 }
 #button{
     padding-bottom: 10px;
-    
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -69,6 +61,7 @@ a:hover{
 button{
     cursor: pointer;
     padding: 12px;
+    width: 100%;
     border-radius: 10px;
     background-color: #20a8b4;
     color: white;
@@ -87,10 +80,47 @@ button:hover{
 }
 .div{ 
     cursor: default;
-    padding: 45px;
+    margin: 10px;
     background-color: #fff;
     background-size: inherit;
+    padding-top: 100px;
 }
 .learningtocode {
     color: #ff5c0f;
 }
+img{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .navigation{
+        flex-direction: row;
+    }
+    button{
+        width: auto;
+        align-items: flex-end;
+    }
+    .button{
+        align-items: flex-end;
+    }
+    .button1{
+        align-items: start;
+        margin: 0;
+    }
+    li {
+        width: 50px;
+        text-align: center;
+        padding: 10px; 
+    }
+    img{
+        display: flex;
+        height: 300px;
+        float: right;
+        width: 50%;
+        align-items: flex-end;
+    }
+  }
